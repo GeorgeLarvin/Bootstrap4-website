@@ -19,29 +19,37 @@
 	<link rel="stylesheet" href="style.css"/>
 	<script src="app.js"></script>
   
+	<!--Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+  
+	<!-- font awesome cdn-->
+	<script src="https://use.fontawesome.com/60959914a9.js"></script>
+  
 </head>
-<body data-spy="scroll" data-target="#navbar" data-offset="70" >
+<body data-spy="scroll" data-target="#navbar" data-offset="400">
 
 <!--NavBar-->
-<nav class="navbar navbar-dark bg-inverse" id="navbar">
+<nav class="navbar navbar-dark bg-inverse navbar-fixed-top " id="navbar">
   
   <a class="navbar-brand" href="#">
 	<img src="logo-image.png" height="40px" width="40px" id="logo-image"/>
   </a>
   <ul class="nav navbar-nav" id="li-links">
-	<li class="nav-item active">
-		<a class="nav-link" href="#home">Home</a>
+	<li class="nav-item">
+		<a class="nav-link" href="#jumbotron">Home</a>
 	</li>
 	<li class="nav-item">
 		<a class="nav-link" href="#info">Info</a>
 	</li>
 	<li class="nav-item">
-		<a class="nav-link" href="#down-load">Download</a>
+		<a class="nav-link" href="#download">Download</a>
 	</li>
   </ul>
 
   <form class="form-inline pull-xs-right">
-	<input class="form-control" type="text" placeholder="Search"/>
+	<input class="form-control" type="email" placeholder="email"/>
+	<input class="form-control" type="password" placeholder="password"/>
 	<button class="btn btn-outline-secondary" type="submit">search</button>
   </form> 
 </nav>
@@ -71,31 +79,77 @@
  <!-- end of jumbotron-->
  
  <!-- info section -->
- <div class="container">
+ <div class="container" id="info">
 	<h1 id="info-h1" class="center">Why this App is awesome</h1>
 	<p id="info-p1" class="center">And why you will want to download it!</p>
  
+ <!--cards -->
+ <div class="row">
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="card-img-1.png" alt="card image cap" height="180px" width="281px"/>
+			<div class="card-block">
+				<img class="card-img-top" src="" />
+				<h4 class="class-block"><i class="fa fa-area-chart" aria-hidden="true"></i><u>App info</u></h4>
+				<p>
+					Lorem Ipsum is simply dummy text of the printing and
+					typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+					when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+					but also the leap into 
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="card-img-2.png" alt="card image cap" height="180px" width="281px"/>
+			<div class="card-block">
+				<img class="card-img-top" src="" />
+				<h4 class="class-block"><i class="fa fa-bolt" aria-hidden="true"></i><u>App info</u></h4>
+				<p>
+					Lorem Ipsum is simply dummy text of the printing and
+					typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+					when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+					but also the leap into 
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="card-img-3.png" alt="card image cap" height="180px" width="281px" id="card-img-3"/>
+			<div class="card-block">
+				<img class="card-img-top" src="" />
+				<h4 class="class-block"><i class="fa fa-bullseye" aria-hidden="true"></i><u>App info</u></h4>
+				<p>
+					Lorem Ipsum is simply dummy text of the printing and
+					typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+					when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+					but also the leap into 
+				</p>
+			</div>
+		</div>
+	</div>
+</div> 
+</div>
+ <!-- end of cards -->
  
+ <!-- footer / download button-->
  
- 
- 
- 
- 
- 
+ <div id="download">
+	<h2 id="#download-h2">Download the app</h2>
+	<div class="center1">
+		<a href="#"><img src="download-app.png" id="img-dwn"/></a>
+	</div>
+	
+	<div class="center1">
+		<a href="#"><img src="download-app1.png" id="img-dwn1"/></a>
+	</div>
  
  
  </div>
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  
 </body>	
 </html>

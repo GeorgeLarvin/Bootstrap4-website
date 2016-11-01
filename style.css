@@ -46,5 +46,54 @@ hr{
 
 .center{
 	text-align:center;
+	font-family: 'Muli', sans-serif;
+	font-weight:bold;
 }
 
+.card-img-top {
+	border:1px solid black;
+	margin-bottom:10px;
+}
+.card{
+	height:500px;
+}
+
+
+i{
+	margin-right:30px;
+}
+
+h2{
+	text-align:center;
+	padding-top:50px;
+	font-family: 'Bangers', cursive;
+	color:black;
+	font-size:3em;
+	-webkit-text-stroke:0.5px white;
+}
+
+#download{
+	height:480px;
+	background-color:#2d5672;
+	opacity:1;
+	padding-bottom:150px;
+	padding-top:50px;
+}
+
+#img-dwn{
+	height:70px;
+	width:200px;
+	border-radius:4px;
+	
+}
+
+.center1{
+	text-align:center;
+}
+
+#img-dwn1{
+	height:70px;
+	width:200px;
+	border-radius:4px;
+	margin-top:20px;
+}
