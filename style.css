@@ -1,0 +1,50 @@
+#logo-image{
+	padding:0px;
+	margin:0px;
+}
+
+
+#navbar{
+	padding-bottom:4px;
+	padding-top:4px;
+	border-radius:0%;
+}
+
+#li-links{
+	padding-top:4px;
+}
+
+#jumbotron {
+	background-image:url("jumbo-image1.png");
+	color:white;
+	border-radius:0%;
+}
+
+hr{
+	border-color:white;
+	margin:15px;
+}
+
+.lead{
+	text-align:center;
+}
+
+.display-3{
+	text-align:center;
+	margin-bottom:15px;
+}
+
+#center{
+	text-align:center;
+	margin:20px;
+}
+
+#email{
+	height:40px;
+	border:1px solid #ECEEEF;
+}
+
+.center{
+	text-align:center;
+}
+
